@@ -109,7 +109,9 @@
   - `verifyConditions`: Validates configuration.
   - `publish`: Deprecates old versions, based on the declaration of supported versions in the config. 
 - [amanda-mitchell/semantic-release-npm-multiple](https://github.com/amanda-mitchell/semantic-release-npm-multiple)
-  - **Note**: this is a thin wrapper around the built-in npm plugin that can target multiple registries
-  - `verifyConditions`: Verify the presence and the validity of the npm authentication and release configuration for multiple registries
-  - `prepare`: Update the package.json version and create the npm package tarball
-  - `publish`: Publish the package on the npm registry for multiple registries
+  - **Note**: this is a thin wrapper around the built-in npm plugin that can target multiple registries.
+  - `verifyConditions`: Verify the presence and the validity of the npm authentication and release configuration for multiple registries.
+  - `prepare`: Update the package.json version and create the npm package tarball.
+  - `publish`: Publish the package on the npm registry for multiple registries.
+- [amanda-mitchell/semantic-release-notify-dependabot](https://github.com/amanda-mitchell/semantic-release-notify-dependabot)
+  - `success`: Notifies dependabot of a package update that may have been pushed to a private registry.
